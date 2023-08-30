@@ -1,0 +1,291 @@
+<html>
+
+    <head>
+        <title>Primeiros Passos com HTML</title>
+        <style>
+            body {
+                margin-left: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1><i>Primeiros Passos com HTML</i></h1>
+        <hr />
+
+        <h2 id="indice">Índice</h2>
+
+        <ol>
+            <li><a href="#historiaWeb"> História da Web</a></li>
+          
+            <li><a href="#comunicacaoClientServer">Comunicação Client x Servidor</a> </li>
+            <ul>
+                <li><a href="#client">Client</a></li>
+                <li><a href="#server">Server</a></li>
+            </ul>
+            <li><a href="#linguagensDevWeb">Linguagens para Desenvolvimento Web</a></li>
+            <ul>
+                <li><a href="#linguagensProgramacaoServer">Linguagens de Programação Server-Side</a></li>
+                <li><a href="#linguagensProgramacaoClient">Linguagens de Programação Client-Side</a></li>
+                <li><a href="#linguagensMarcacao">Linguagens de Marcação</a></li>
+            </ul>
+            <li><a href="#introHtml">Introdução ao HTML</a></li>
+            <li><a href="#estruturaBasica">Estrutura Básica do HTML</a></li>
+            <ul>
+                <li><a href="#tags">Tags</a></li>
+                <li><a href="#tipografias">Tipografias HTML</a></li>
+                <li><a href="#listas">Listas</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+            <li><a href="#referencias">Referências</a></li>
+        </ol>
+
+        <h2 id="historiaWeb">História da Web</h2>
+
+        <p>
+            A World Wide Web (ou simplesmente Web) foi criada pelo cientista da computação britânico Sir Tim Berners-Lee no final da década de 1980 e início da década de 1990. Ele desenvolveu a ideia da Web como uma forma de compartilhar e acessar informações de maneira mais eficiente através da internet. 
+        </p>
+
+        <p>
+            Antes da Web, a internet já existia como uma rede de computadores interconectados, utilizada principalmente por acadêmicos e pesquisadores para compartilhar informações e recursos. No entanto, o acesso à informação era muitas vezes complicado e restrito.
+        </p>
+
+        <p>
+            Em 1989, Tim Berners-Lee, que trabalhava no CERN (Organização Europeia para a Pesquisa Nuclear), propôs um sistema de gestão de informações que utilizaria hipertexto para vincular documentos. Ele escreveu um documento chamado "Information Management: A Proposal" (Gerenciamento de Informações: Uma Proposta), que descrevia os princípios da Web.
+        </p>
+
+        <p>
+            Berners-Lee introduziu três conceitos cruciais para a Web:
+
+            <ul>
+                <li><strong>HTML (<i>Hypertext Markup Language</i>):</strong> Uma linguagem de marcação para criar páginas da Web, permitindo a formatação e a criação de links entre documentos.</li>
+                <li><strong>URI (<i>Uniform Resource Identifier</i>):</strong>Um sistema de identificação de recursos na Web, que mais tarde se dividiu em URLs (Localizadores de Recursos Uniformes) e URIs (Identificadores de Recursos Uniformes).</li>
+                <li><strong>HTTP (<i>Hypertext Transfer Protocol</i>):</strong> Um protocolo para transferência de dados entre um navegador da Web e um servidor Web.</li>
+            </ul>
+        </p>
+
+        <p>
+            Em 1990, Berners-Lee desenvolveu o primeiro navegador da Web, chamado "WorldWideWeb", e o primeiro servidor Web. Ele também criou o primeiro site, que continha informações sobre o projeto World Wide Web e como usá-lo. Com a criação de padrões abertos e a disponibilidade do código-fonte dos softwares, a Web começou a crescer rapidamente. Muitas pessoas e organizações começaram a criar seus próprios sites e a compartilhar informações online.
+        </p>
+
+        <p>
+            Ao longo dos anos 1990, a Web ganhou popularidade e evoluiu com a introdução de gráficos, multimídia e recursos interativos. Surgiram novos navegadores, como o Netscape Navigator, que tornaram a Web mais acessível ao público em geral. Para garantir o desenvolvimento contínuo e interoperabilidade da Web, várias organizações, como o World Wide Web Consortium (W3C), foram formadas para definir padrões e diretrizes para tecnologias web.
+        </p>
+
+        <small><a href="#indice" style="color: blue;">voltar</a></small>
+
+        <h2 id="comunicacaoClientServer">Comunicação Client - Server</h2>
+
+            <p>
+                A comunicação cliente-servidor é um modelo fundamental de interação entre dispositivos em sistemas de computação e redes, essencial em várias aplicações de computação, como sites, aplicativos móveis, serviços em nuvem e redes empresariais. Esta comunicação permite a distribuição eficiente de tarefas e recursos, permitindo que os dispositivos especializem-se em suas funções específicas. Isso leva a uma arquitetura escalável e modular, na qual os servidores podem ser dimensionados conforme a demanda e os clientes podem acessar serviços sem a necessidade de possuir todos os recursos localmente.
+            </p>
+
+            <h3 id="client">Client</h3>
+
+            <p>
+                O cliente é um dispositivo ou aplicativo que solicita serviços, recursos ou informações de outro dispositivo, conhecido como servidor. O cliente envia pedidos ao servidor para obter informações ou executar ações específicas.
+            </p>
+
+            <h3 id="server">Server</h3>
+
+            <p>
+                O servidor é um dispositivo ou aplicativo que oferece serviços, recursos ou informações em resposta às solicitações dos clientes. Ele recebe as solicitações dos clientes, processa-as e envia as respostas apropriadas de volta aos clientes.
+            </p>
+
+            <small><a href="#indice" style="color: blue;">voltar</a></small>
+
+        <h2 id="linguagensDevWeb">Linguagens Para Desenvolvimento Web</h2>
+
+            <p>
+                Linguagens de desenvolvimento web são conjuntos de instruções e códigos utilizados para criar e construir aplicativos, sites e outras soluções online. Elas desempenham um papel crucial na definição da funcionalidade, aparência e comportamento das páginas da web e dos aplicativos online. 
+            </p>
+
+            <h3 id="linguagensProgramacaoServer">Linguagens de Programação Server-Side</h3>
+
+            <p>
+                Linguagens de Programação Server-Side, também conhecidas como linguagens do lado do servidor, são linguagens de programação que são executadas no servidor web para processar solicitações dos clientes (navegadores) e gerar respostas dinâmicas. Essas linguagens são usadas para criar aplicativos web dinâmicos, nos quais o conteúdo das páginas é gerado sob demanda, muitas vezes com base em informações de bancos de dados, interações do usuário e outros fatores.
+            </p>
+
+            <p>
+                A principal função das linguagens de programação server-side é lidar com a lógica de negócios, manipulação de dados, processamento de formulários e outras tarefas que ocorrem nos bastidores da aplicação web. A resposta resultante é então enviada ao cliente (navegador) para exibição. Isso permite a criação de páginas web personalizadas e interativas que se adaptam às necessidades dos usuários.
+            </p>
+
+            <p>
+                Alguns exemplos de linguagens de programação server-side são:
+
+                <ol>
+                    <li><b>PHP:</b> PHP é uma linguagem de script amplamente usada para desenvolvimento web dinâmico. Ele pode ser embutido em HTML e é frequentemente usado com bancos de dados para criar aplicativos web poderosos.</li>
+                    <li><b>Python:</b> Python é uma linguagem versátil usada para diversas aplicações, incluindo desenvolvimento web. Frameworks populares como Django e Flask permitem a criação de aplicativos web escaláveis e bem estruturados.</li>
+                    <li><b>Ruby:</b> Ruby é a linguagem por trás do framework Ruby on Rails, que facilita o desenvolvimento rápido e eficiente de aplicativos web.</li>
+                    <li><b>Java:</b> Java é uma linguagem amplamente usada para desenvolvimento web do lado do servidor. Frameworks como Spring fornecem estruturas robustas para criar aplicativos web escaláveis.</li>
+                    <li><b>C#:</b> C# é uma linguagem da plataforma Microsoft usada comumente para criar aplicativos web usando a estrutura ASP.NET.</li>
+                    <li><b>Node.js (JavaScript):</b> Embora JavaScript seja principalmente uma linguagem de script client-side, o ambiente Node.js permite que ele seja usado do lado do servidor para construir aplicativos web altamente escaláveis e orientados a eventos. </li>
+                </ol>
+            </p>
+
+            <h3 id="linguagensProgramacaoClient">Linguagens de Programação Client-Side</h3> 
+
+                <p>
+                    Linguagens de Programação Client-Side são linguagens de programação que são executadas no navegador do cliente (usuário) para controlar a interatividade, o comportamento e a aparência das páginas da web. Elas são usadas para criar experiências interativas e dinâmicas diretamente no navegador, sem a necessidade de interações com o servidor a cada ação do usuário. Essas linguagens são essenciais para a criação de páginas web modernas e interativas.
+                </p>
+
+                <p>
+                    Alguns exemplos de linguagens de programação client-side são:
+
+                    <ol>
+                        <li><b>JavaScript:</b> JavaScript é a linguagem client-side mais conhecida e amplamente utilizada. Ela permite a manipulação do DOM (Modelo de Objeto de Documento) para alterar elementos da página em resposta a eventos, como cliques e entradas do usuário. Além disso, JavaScript é usado para criar animações, validar formulários, interagir com APIs externas e muito mais.</li>
+                        <li><b>TypeScript:</b> TypeScript é uma extensão do JavaScript que adiciona recursos de tipagem estática, o que pode tornar o desenvolvimento client-side mais robusto e menos propenso a erros.</li>
+                        <li><b>CoffeeScript:</b> CoffeeScript é uma linguagem que compila para JavaScript e oferece uma sintaxe mais concisa e expressiva, tornando a escrita de código client-side mais rápida e elegante.</li>
+                        <li><b>Dart:</b> Dart é uma linguagem desenvolvida pela Google, frequentemente usada com o framework Flutter para criar aplicativos móveis e web interativos.</li>
+                    </ol>
+                </p>
+
+            <h3 id="linguagensMarcacao">Linguagens de Marcação</h3>
+
+            <p>
+                Linguagens de marcação são sistemas de codificação utilizados para formatar e estruturar o conteúdo de documentos, tornando-os legíveis tanto para humanos quanto para máquinas. Elas são amplamente usadas para definir a apresentação, a organização e a semântica de textos e outros elementos em diversos tipos de documentos, como páginas da web, documentos XML, emails, entre outros.
+            </p>
+
+            <p>
+                As linguagens de marcação não são linguagens de programação tradicionais, pois não têm a capacidade de executar ações complexas ou lógica de programação. Em vez disso, elas servem para descrever a estrutura e o significado do conteúdo.
+            </p>
+
+            <p>
+                Alguns exemplos de linguagens de marcação são:
+
+                <ol>
+                    <li><b>HTML (Hypertext Markup Language):</b> HTML é uma linguagem de marcação usada para criar a estrutura básica de páginas da web. Ela define elementos como títulos, parágrafos, links, imagens e outros componentes visuais e semânticos.</li>
+                    <li><b>XML (eXtensible Markup Language):</b> XML é uma linguagem de marcação flexível usada para estruturar e armazenar dados de forma hierárquica. Ela é amplamente usada para trocar informações entre sistemas diferentes, bem como para armazenar configurações e dados estruturados.</li>
+                    <li><b>Markdown:</b> Markdown é uma linguagem de marcação de texto simples que permite a formatação básica de texto, como cabeçalhos, listas, links e ênfase. É comumente usado para escrever conteúdo em blogs, wikis e outras plataformas online.</li>
+                    <li><b>LaTeX:</b>  LaTeX é uma linguagem de marcação usada principalmente para criar documentos científicos e acadêmicos complexos. Ela permite a formatação avançada de textos, fórmulas matemáticas e referências.</li>
+                </ol>
+            </p>
+
+            <h3 id="linguagensDeEstilo">Linguagens de Estilo</h3>
+
+            <p>
+                Linguagens de estilo são linguagens usadas para controlar a aparência e o layout de elementos em documentos, como páginas da web. Elas permitem que os desenvolvedores apliquem estilos visuais, como cores, fontes, tamanhos, espaçamentos e posicionamento, aos elementos de um documento, tornando-o mais atraente e organizado. As linguagens de estilo trabalham em conjunto com as linguagens de marcação ou programação para criar páginas e aplicativos com uma estética coerente e agradável.
+            </p>
+
+            <p>
+                Duas das linguagens de estilo mais conhecidas são:
+
+                <ol>
+                    <li><b>CSS (Cascading Style Sheets):</b> CSS é a linguagem de estilo mais amplamente usada na web. Ela permite definir estilos para elementos HTML, determinando como eles devem ser exibidos no navegador. O CSS também permite a criação de regras de estilo que se aplicam a elementos específicos, classes ou IDs, permitindo um alto grau de controle sobre o design de uma página.</li>
+                    <li><b>SASS/SCSS: </b>  SASS (Syntactically Awesome Style Sheets) é uma extensão do CSS que adiciona recursos como variáveis, funções e aninhamento, facilitando a escrita e a manutenção de folhas de estilo complexas. SCSS é uma sintaxe compatível com CSS, mas que também incorpora as vantagens do SASS.</li>
+                </ol>
+            </p>
+
+        <small><a href="#indice" style="color: blue;">voltar</a></small>
+
+        <h2 id="introHtml">Introdução do HTML</h2>
+
+            <p>
+                O HTML (Hypertext Markup Language) foi desenvolvido pelo cientista da computação britânico Sir Tim Berners-Lee como parte de seu trabalho na criação da World Wide Web. O HTML é a linguagem de marcação fundamental para a criação de páginas da web e a base da Web moderna.
+            </p>
+
+            <p>
+                Como parte da implementação dessa proposta, Berners-Lee criou uma linguagem de marcação simples que permitiria aos cientistas e pesquisadores compartilhar documentos e links através da internet. Essa linguagem de marcação se tornou o HTML.
+            </p>
+
+            <p>
+                À medida que a Web crescia, a necessidade de padronizar o HTML tornou-se evidente. O HTML passou por várias versões, com melhorias e novos recursos sendo adicionados ao longo do tempo. O W3C (World Wide Web Consortium) foi criado para estabelecer padrões e diretrizes para a Web, incluindo o desenvolvimento e a evolução do HTML.
+            </p>
+
+            <p>
+                Uma das versões mais significativas do HTML é o HTML5, lançado em 2014. O HTML5 trouxe várias melhorias e novos recursos para a Web, como suporte integrado a vídeo e áudio, elementos semânticos, APIs de geolocalização e muito mais.
+            </p>
+
+        <small><a href="#indice" style="color: blue;">voltar</a></small>
+        <h2 id="estruturaBasica">Estrutura Básica do HTML</h2>
+
+            <p>
+                Um documento HTML (Hypertext Markup Language) segue uma estrutura básica que define a organização e o conteúdo da página da web. A estrutura fundamental de um documento HTML inclui as seguintes partes:
+
+                <pre><code>
+                    &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                        &lt;head&gt;
+                            &lt;meta charset="UTF-8"&gt;
+                            &lt;title&gt;Título da Página&lt;/title&gt;
+                            &lt;!-- Inclusão de folhas de estilo CSS, meta informações, etc. --&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            &lt;!-- Conteúdo visível da página --&gt;
+                            &lt;header&gt;
+                                &lt;!-- Cabeçalho da página, como logotipo e navegação --&gt;
+                            &lt;/header&gt;
+                            &lt;nav&gt;
+                                &lt;!-- Navegação da página --&gt;
+                            &lt;/nav&gt;
+                            &lt;main&gt;
+                                &lt;!-- Conteúdo principal da página --&gt;
+                            &lt;/main&gt;
+                            &lt;footer&gt;
+                                &lt;!-- Rodapé da página --&gt;
+                            &lt;/footer&gt;
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                </code></pre>
+            </p>
+
+            <ol>
+                <li><b>&lt;!DOCTYPE html&gt;</b> Declaração do tipo de documento, que especifica a versão do HTML sendo usada. No caso de HTML5, essa declaração é usada.</li>
+                <li><b>&lt;html&gt;</b> Elemento raiz do documento HTML, envolve todo o conteúdo da página.</li>
+                <li><b> &lt;head&gt;</b>  Contém metadados e informações sobre a página, como o título exibido na barra de título do navegador.
+                    <ul>
+                        <li><b>&lt;meta charset="UTF-8"&gt;</b> Define o conjunto de caracteres UTF-8 para garantir a exibição correta de caracteres especiais.</li>
+                        <li><b>&lt;title&gt;</b> Define o título da página, que é exibido na barra de título do navegador.</li>
+                    </ul>
+                </li>
+                <li><b>&lt;body&gt;</b> Contém o conteúdo visível da página.
+                    <ul>
+                        <li><b>&lt;header&gt;</b> Geralmente contém elementos relacionados ao cabeçalho da página, como logotipos e navegação.</li>
+                        <li><b>&lt;nav&gt;</b> Usado para a navegação da página, como menus.</li>
+                        <li><b>&lt;/main&gt;</b> Contém o conteúdo principal da página.</li>
+                        <li><b>&lt;/footer&gt;</b> Contém informações de rodapé, como informações de contato ou links adicionais.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3 id="tags">Tags</h3>
+
+            <p>
+                m programação, especialmente na criação de páginas web usando HTML, XML e outras linguagens de marcação, as "tags" são elementos que fornecem instruções sobre como o conteúdo deve ser estruturado, formatado e exibido. As tags são cercadas por caracteres especiais, como "&lt;" e "&gt;", para indicar seu início e fim. Elas desempenham um papel fundamental na definição da estrutura e do significado do conteúdo em um documento.
+            </p>
+
+            <p>
+                Alguns exemplos de tags HTML são:
+
+                <ul>
+                    <li><b>&lt;p&gt;</b> Indica um parágrafo de texto.</li>
+                    <li><b>&lt;a&gt;</b> Cria um link.</li>
+                    <li><b>&lt;img&gt;</b> Exibe uma imagem.</li>
+                    <li><b>&lt;hi&gt;</b> Define os níveis de cabeçalho (títulos) de diferentes tamanhos (h1 - h6). </li>
+                    <li><b>&lt;ul&gt;</b> Cria uma lista não ordenada.</li>
+                    <li><b>&lt;ol&gt;</b> Cria uma lista ordenada.</li>
+                    <li><b>&lt;li&gt;</b> Indica um item de lista.</li>
+                    <li><b>&lt;table&gt;</b> Cria uma tabela.</li>
+                    <li><b>&lt;tr&gt;</b> Define uma linha em uma tabela.</li>
+                    <li><b>&lt;td&gt;</b> Define uma célula de dados em uma tabela.</li>
+                    <li><b>&lt;div&gt;</b> Cria uma divisão ou contêiner genérico.</li>
+                    <li><b>&lt;span&gt;</b> Marca uma parte de texto para aplicar estilos ou scripts.</li>
+                    <li><b>&lt;form&gt;</b> Define um formulário para entrada de dados.</li>
+                    <li><b>&lt;input&gt;</b> Cria um campo de entrada, como um campo de texto ou um botão.</li>
+                </ul>
+            </p>
+
+        <small><a href="#indice" style="color: blue;">voltar</a></small>
+        <h2 id="referencias">Referências</h2>
+
+        <ul>
+            <li><a target="_blank" href="https://www.w3schools.com/html/default.asp">W3schools</a></li>
+            <li><a target="_blank" href="http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html">Evolução das tags HTML</a></li>
+            <li><a href="https://web.dev/learn/forms/" target="_blank">Tutorial sobre Formulários</a></li>
+        </ul>
+        <small><a href="#indice" style="color: blue;">voltar</a></small>
+    
+    </body>
+
+</html>
+
