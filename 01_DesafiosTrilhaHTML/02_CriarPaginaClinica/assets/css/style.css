@@ -1,0 +1,244 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Monsieur+La+Doulaise&family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,400;0,8..144,600;1,8..144,200;1,8..144,400;1,8..144,600&display=swap');
+
+
+html, body {
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(20, 20, 34), rgb(18, 18, 63));
+}
+
+* {
+    color: white;
+}
+
+header {
+    display: flex;
+    align-content:start;
+    height: 30vh;
+   box-sizing: border-box;
+}
+
+.marca {
+    display: inline-block;
+    width: 20rem;
+    height: 30vh;
+    background-image: url("../image/RadiantVisage.png");
+    background-size: cover;
+    background-origin: border-box;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.capa {
+    display: inline-block;
+    height: 30vh;
+    width: calc(100% - 20rem);
+    background-position: left;
+    background-size: contain;
+    background-origin: border-box;
+}
+
+#capa1 {
+    background-image: url("../image/sala1.jpg");
+
+}
+
+#capa2 {
+    background-image: url("../image/sala2.jpg");
+}
+
+#capa3 {
+    background-image: url("../image/relogio.jpg");
+}
+
+#capa4 {
+    background-image: url("../image/telefone3.jpg");
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+section.main {
+
+    height: 60vh;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    width: 15rem;
+    font-size: 2rem;
+    padding: 2rem 0rem 2rem 2rem;
+    margin-right: 1.5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 2rem;
+    font-family: "Lobster Two", cursive;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: hotpink;
+    text-decoration:underline;
+}
+
+
+
+main {
+    display: flex;
+    padding: 1rem;
+    width: calc(100% - 15rem);
+    box-sizing: border-box;
+    
+}
+
+main article {
+    padding: 1.5rem;
+    box-sizing: content-box;
+    margin: 1rem auto;
+    max-width: 60rem;
+    height: inherit;
+    border-radius: 10px 50px;
+    background: url("../image/formiga.png") bottom right / auto no-repeat local,linear-gradient(to bottom right, turquoise, darkturquoise);
+    background-blend-mode:hue;
+}
+
+#canto {
+    width: 8rem;
+}
+
+.procedimentos {
+    display: flex;
+    flex-direction: row;
+}
+
+.lista-procedimentos {
+    text-align: left;
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.5rem;
+    color: snow;
+    line-height: 3rem ;
+
+}
+
+.lista-imagens {
+    box-sizing: border-box;
+    margin-left: 2rem;
+}
+
+
+footer {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+footer h1 {
+    width: 50%;
+    text-align: right;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 50;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+section.contatos {
+    width: 50%;
+    margin-left: 4rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-family: 'Roboto Serif', serif;
+}
+
+#apresentacao {
+    font-family: 'Roboto Serif', serif;
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(14, 7, 54);
+}
+
+#paragrafo-apresentacao {
+    font-family: 'Roboto Serif', serif;
+    font-size: 1.2rem;
+    color: snow;
+    padding: 1rem;
+    text-align: justify;
+    margin: 1rem;
+}
+
+#slogan {
+    font-family: "Lobster Two", cursive;
+    font-size: 1.2rem;;
+    text-align: right;
+    margin-right: 30%
+}
+
+#assinatura {
+    font-family: "Lobster Two", cursive;
+    font-size: 2rem;
+    text-align: right;
+    font-weight: 100;
+    margin-right: 25%;
+}
+
+.lista-procedimentos li {
+    list-style-type: circle;
+    
+}
+table, th, td {
+    border: 3px solid snow;
+    border-collapse: collapse;
+    font-family: 'Roboto Serif', serif;
+    border-style: ridge;
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+td:nth-child(1) {
+    text-align: right;
+}
+
+tr:hover td {
+    color: hotpink;
+
+}
+
+.fale-conosco {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: hotpink;
+    border: none;
+    font-size: 1rem;
+}
+
+button:hover {
+background-color: orchid;
+}
+
+

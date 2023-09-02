@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Página Principal</title>
+</head>
+<body>
+    
+    <header>
+        <div class="marca"></div>
+        <div class="capa" id="capa4"></div>
+    </header>
+
+    <section class="main">
+        <nav>
+            <ul>
+                <li><a href="paginaPrincipal.html">Página Principal</a></li>
+                <li><a href="procedimentos.html">Procedimentos</a></li>
+                <li><a href="horarios.html">Horário de Funcionamento</a></li>
+                <li><a href="faleConosco.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <article>
+
+                <h1 id="apresentacao">Fale Conosco</h1>
+
+                <div class="fale-conosco">
+                    <form onsubmit="alert('Enviado!')" autocomplete="on" method="post" target="_self">
+                        <label>Nome:</label>
+                        <input type="text"><br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text"><br>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea name="mensafem" id="mensagem" cols="30" rows="10"></textarea><br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </form>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3183.597158942703!2d-12.313211623413983!3d-37.06708192217229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3c659f35a4a5%3A0x376a1929f517aea9!2sEdimburgo%20dos%20Sete%20Mares%20TDCU%201ZZ%2C%20Santa%20Helena!5e0!3m2!1spt-BR!2sbr!4v1693664379717!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+                
+                
+            </article>
+            
+        </main>
+
+    </section>
+
+        <footer>
+            <h1>Contato</h1>
+
+            <section class="contatos">
+                <ul>
+                    <li>contato@radiantvisage.com</li>
+                    <li>+55 (61) 99123-4567</li>
+                </ul>
+            </section>
+            
+        </footer>
+
+    
+        
+    
+    
+
+</body>
+</html>
