@@ -1,0 +1,15 @@
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\bin\Debug\net7.0\DesafioHospedagem.exe
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\bin\Debug\net7.0\DesafioHospedagem.deps.json
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\bin\Debug\net7.0\DesafioHospedagem.runtimeconfig.json
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\bin\Debug\net7.0\DesafioHospedagem.dll
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\bin\Debug\net7.0\DesafioHospedagem.pdb
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\DesafioHospedagem.csproj.AssemblyReference.cache
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\DesafioHospedagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\DesafioHospedagem.AssemblyInfoInputs.cache
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\DesafioHospedagem.AssemblyInfo.cs
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\DesafioHospedagem.csproj.CoreCompileInputs.cache
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\DesafioHospedagem.dll
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\refint\DesafioHospedagem.dll
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\DesafioHospedagem.pdb
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\DesafioHospedagem.genruntimeconfig.cache
+C:\Users\dalil\GITHUB\DesafiosDio\03_DesafiosTrilhaCsharp\Desafio02_ExplorandoALinguagem\DesafioHospedagem\obj\Debug\net7.0\ref\DesafioHospedagem.dll
